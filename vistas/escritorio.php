@@ -6,7 +6,6 @@ if (!isset($_SESSION['nombre'])) {
   header("Location: login.html");
 }else{
 
-
 require 'header.php';
 
 if ($_SESSION['escritorio']==1) {
